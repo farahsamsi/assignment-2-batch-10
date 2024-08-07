@@ -3,7 +3,9 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
 /* font-family: 'Miama', sans-serif; */
-                
+            
+/* Object-fit:none;
+Object-position: 66% 33%; */
 
 *{
     margin: 0;
@@ -16,6 +18,10 @@ body{
     background-color: black;
     color: white;
 }
+header{
+    padding-top: 3.5rem;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.3), rgb(17, 17, 17) 100%);
+}
 
 .small{
     max-width: 1060px;
@@ -23,9 +29,6 @@ body{
     margin-bottom: 2rem;
 }
 
-header{
-    padding-top: 3.5rem;
-}
 img{
     width: 100%;
 }
