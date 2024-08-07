@@ -2,6 +2,14 @@
     body{
         padding: 0 10px;
     }
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 100%;
+    }
+    
+    
 }
 
 @media screen and (max-width:576px) {
@@ -10,5 +18,54 @@
     }
     .menu{
         display: block;
+    }
+    .hero-container h1 {
+        font-size: 2.5rem;
+        line-height: 120%;
+    }
+    span {
+        font-size: 5rem;
+    }
+    .primary-btn{
+        padding: 1rem;
+    }
+    .button-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 14px;
+    }
+    .hero-image-container{
+        width: 100%;
+    }
+    .lower-card,
+    .upper-card {
+        padding: .4rem;
+    }
+    .upper-card h2 {
+        font-size: 1.875rem;
+    }
+    .lower-card h2{
+        font-size: 1.125rem;
+    }
+    .upper-card>p{
+        font-size: 9px;
+    }
+    
+    .lower-card p {
+        font-size: 12px;
+    }
+    .upper-card{
+        top: 8%;
+        left: 57%;
+        width: 7.5rem;
+    }
+    .lower-card{
+        top: 50%;
+        left: 5%;
+        gap: 9px;
+    }
+    .red-circle {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }

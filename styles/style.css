@@ -20,25 +20,34 @@ body{
 .small{
     max-width: 1060px;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 header{
     padding-top: 3.5rem;
 }
+img{
+    width: 100%;
+}
 
-.primary-btn{
+.primary-btn, .secondary-btn{
     border-radius: 42px;
     background: rgb(230, 83, 60);
-    padding: .5rem 1.25rem;
+    padding: 1rem 2.5rem;
     font-weight: 600;
     border: none;
+    color: white;
     cursor: pointer;
+}
+.secondary-btn{
+    padding: .5rem 1.25rem;
+}
+.background-black{
+    background-color: black;
+    border: 1px solid white;
 }
 
 /* navbar related styles */
-nav{
-    margin-bottom: 2rem;
-}
 nav, .nav-items{
     display: flex;
     justify-content: space-between;
@@ -74,6 +83,89 @@ nav, .nav-items{
     font-size: 1.125rem;
     display: none;
 }
-.nav-items p{
-    /* border: 1px solid red; */
+
+/* banner related styles */
+.hero-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.hero-text-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-container h1 {
+    font-size: 4.8rem;
+    line-height: 100%;
+}
+span {
+    font-family: 'Miama', sans-serif;
+    font-weight: 500;
+    font-size: 7rem;
+}
+.hero-container p {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1.75rem 0 1.75rem 0;
+}
+
+.hero-image-container {
+    width: 60%;
+    position: relative;
+    display: flex;
+}
+
+.upper-card {
+    top: 25%;
+    left: 60%;
+    width: 12rem;
+}
+
+.lower-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    top: 70%;
+    left: -15%;
+}
+
+.lower-card,
+.upper-card {
+    position: absolute;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: #393939c5;
+    backdrop-filter: blur(5px);
+}
+
+.upper-card h2 {
+    font-size: 2.5rem;
+}
+.lower-card h2{
+    font-size: 1.5rem;
+}
+
+.upper-card>p,
+.lower-card p {
+    margin: 0.4rem 0 0 0;
+    font-size: 1rem;
+}
+.upper-card>p{
+    font-size: .8rem;
+}
+
+.red-circle {
+    background-color: rgb(230, 83, 60);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
