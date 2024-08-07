@@ -13,4 +13,67 @@
 
 body{
     font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.small{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 3.5rem;
+}
+
+.primary-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: .5rem 1.25rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* navbar related styles */
+nav{
+    margin-bottom: 2rem;
+}
+nav, .nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-style: italic;
+}
+
+.nav-items{
+    padding: 5px;
+    padding-right: 20px;
+    font-size: 1.125rem;
+    gap: 2.8rem;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.nav-items>p:hover{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: .5rem 1.25rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.menu{
+    font-size: 1.125rem;
+    display: none;
+}
+.nav-items p{
+    /* border: 1px solid red; */
 }
