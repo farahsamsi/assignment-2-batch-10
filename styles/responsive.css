@@ -1,87 +1,133 @@
+@media screen and (min-width:992px) and (max-width:30000px) {
+    .extra-text-container{
+        margin-left: 3.375rem;
+    }
+
+}
 @media screen and (max-width:992px) {
-    .small{
+    .small {
         padding: 0 10px;
     }
+    .extra-container {
+        padding: 1.8rem;
+        margin: 0 10px;
+    }
+
     .hero-container {
         display: flex;
         flex-direction: column;
         gap: 3rem;
         width: 100%;
     }
+
     .habit-card-container {
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    
+
+
 }
 
 @media screen and (max-width:576px) {
     .section-title {
         font-size: 2rem;
     }
-    
-    .section-description{
+
+    .section-description {
         max-width: 320px;
     }
-    .nav-items{
+
+    .nav-items {
         display: none;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
+
     .hero-container h1 {
         font-size: 3.2rem;
         line-height: 120%;
     }
+
     span {
         font-size: 5rem;
     }
-    .primary-btn{
+
+    .primary-btn {
         padding: 1rem;
     }
-    .button-container{
+
+    .button-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 14px;
     }
-    .hero-image-container{
+
+    .hero-image-container {
         width: 100%;
     }
+
     .lower-card,
     .upper-card {
         padding: .4rem;
     }
+
     .upper-card h2 {
         font-size: 1.875rem;
     }
-    .lower-card h2{
+
+    .lower-card h2 {
         font-size: 1.125rem;
     }
-    .upper-card>p{
+
+    .upper-card>p {
         font-size: 9px;
     }
-    
+
     .lower-card p {
         font-size: 12px;
     }
-    .upper-card{
+
+    .upper-card {
         top: 8%;
         left: 57%;
         width: 7.5rem;
     }
-    .lower-card{
+
+    .lower-card {
         top: 50%;
         left: 5%;
         gap: 9px;
     }
+
     .red-circle {
         width: 1.5rem;
         height: 1.5rem;
     }
-    /* .habits-container{
-        margin-top: 2px;
-    } */
+    .red-circle i{
+        display: block;
+    }
+
     .habit-card-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .extra-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .extra-text-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .extra-text-container,
+    .extra-img-container {
+        width: 100%;
+    }
+    .extra-img-container {
+        min-height: 10px;
+    }
+    .extra-img-container img {
+        object-fit: cover;
     }
 }

@@ -193,6 +193,9 @@ span {
     justify-content: center;
     align-items: center;
 }
+.red-circle i{
+    display: none;
+}
 
 /* habits section related styles */
 .habits-container {
@@ -225,4 +228,32 @@ span {
 
 .card-container .img-container img {
     border-radius: 50%;
+}
+
+/* run an extra mile section related styles */
+.extra-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 1.8rem;
+}
+.extra-text-container,
+.extra-img-container {
+    width: 40%;
+}
+.extra-img-container {
+    min-height: 312px;
+    display: flex;
+}
+.extra-img-container img {
+    height: auto;
+    border-radius: 18px;
+    object-fit: none;
+    object-position: 67% 28%;
+}
+.extra-text-container p {
+    margin-bottom: 2.125rem;
+    line-height: 24px;
 }
