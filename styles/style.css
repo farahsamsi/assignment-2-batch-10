@@ -3,33 +3,34 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
 /* font-family: 'Miama', sans-serif; */
-            
+
 /* Object-fit:none;
 Object-position: 66% 33%; */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Inter", sans-serif;
     background-color: black;
     color: white;
 }
-header{
+
+header {
     padding-top: 3.5rem;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.2), rgb(17, 17, 17) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.2), rgb(17, 17, 17) 100%);
 }
 
-.small{
+.small {
     max-width: 1060px;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
-img{
+img {
     width: 100%;
 }
 
@@ -47,13 +48,15 @@ td {
     max-width: 560px;
 }
 
-.section-title-container, .card-container{
+.section-title-container,
+.card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.primary-btn, .secondary-btn{
+.primary-btn,
+.secondary-btn {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: 1rem 2.5rem;
@@ -62,33 +65,36 @@ td {
     color: white;
     cursor: pointer;
 }
-.secondary-btn{
+
+.secondary-btn {
     padding: .5rem 1.25rem;
 }
-.background-black{
+
+.background-black {
     background-color: black;
     border: 1px solid white;
 }
 
-.only-for-bg{
+.only-for-bg {
     background-color: #222222;
 }
 
 /* navbar related styles */
-nav, .nav-items{
+nav,
+.nav-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800;
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
     font-style: italic;
 }
 
-.nav-items{
+.nav-items {
     padding: 5px;
     padding-right: 20px;
     font-size: 1.125rem;
@@ -97,7 +103,7 @@ nav, .nav-items{
     border-radius: 39px;
 }
 
-.nav-items>p:hover{
+.nav-items>p:hover {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: .5rem 1.25rem;
@@ -106,15 +112,15 @@ nav, .nav-items{
     cursor: pointer;
 }
 
-.menu{
+.menu {
     font-size: 1.125rem;
     display: none;
 }
 
 /* banner related styles */
-.hero-container{
+.hero-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: center;
 }
@@ -131,11 +137,13 @@ nav, .nav-items{
     line-height: 100%;
     font-weight: 900;
 }
+
 span {
     font-family: 'Miama', sans-serif;
     font-weight: 500;
     font-size: 7rem;
 }
+
 .hero-container p {
     color: rgba(255, 255, 255, 0.5);
     margin: 1.75rem 0 1.75rem 0;
@@ -175,7 +183,8 @@ span {
 .upper-card h2 {
     font-size: 2.5rem;
 }
-.lower-card h2{
+
+.lower-card h2 {
     font-size: 1.5rem;
 }
 
@@ -184,7 +193,8 @@ span {
     margin: 0.4rem 0 0 0;
     font-size: 1rem;
 }
-.upper-card>p{
+
+.upper-card>p {
     font-size: .8rem;
 }
 
@@ -197,14 +207,14 @@ span {
     justify-content: center;
     align-items: center;
 }
-.red-circle i{
+
+.red-circle i {
     display: none;
 }
 
 /* habits section related styles */
 .habits-container {
     text-align: center;
-    margin-top: 4rem;
 }
 
 .habit-card-container {
@@ -243,20 +253,24 @@ span {
     border-radius: 18px;
     padding: 1.8rem;
 }
+
 .extra-text-container,
 .extra-img-container {
     width: 40%;
 }
+
 .extra-img-container {
     min-height: 312px;
     display: flex;
 }
+
 .extra-img-container img {
     height: auto;
     border-radius: 18px;
     object-fit: none;
     object-position: 67% 28%;
 }
+
 .extra-text-container p {
     margin-bottom: 2.125rem;
     line-height: 24px;
@@ -267,12 +281,13 @@ span {
 .calculator-parent {
     margin-top: 4rem;
 }
+
 .calculator-parent h3 {
     font-size: 1.5rem;
     font-weight: 900;
 }
 
-.calculator-form h3{
+.calculator-form h3 {
     margin-bottom: 14px;
 }
 
@@ -289,7 +304,7 @@ td {
 }
 
 th,
-td{
+td {
     padding: 15px;
     text-align: left;
 }
@@ -307,13 +322,9 @@ td{
 
 .calculator-form {
     width: 55%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start; */
 }
 
-.form-inputs{
+.form-inputs {
     margin: 2.125rem 0 2.125rem 0;
     display: flex;
     flex-wrap: wrap;
@@ -321,7 +332,8 @@ td{
     gap: 12px;
 }
 
-.form-inputs input, select{
+.form-inputs input,
+select {
     padding: .8rem 1.2rem;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -329,14 +341,56 @@ td{
     color: #757575;
 }
 
-select{
+select {
     width: 100%;
 }
 
-input, .sex{
+input,
+.sex {
     width: 48%;
 }
 
-.bmi-calculator-text{
+.bmi-calculator-text {
     margin-left: 190px;
+}
+
+/* meet our team related styles */
+.team-container {
+    text-align: center;
+    
+}
+#team-container{
+    margin-top: 5rem;
+}
+
+.team-imgs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.2rem;
+    margin-top: 4.5rem;
+    padding: 1.25rem;
+    border-radius: 18px;
+}
+
+.team-item {
+    height: 272px;
+}
+
+.team-item img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    filter: brightness(70%);
+}
+
+.team-item {
+    position: relative;
+}
+
+.team-item-text {
+    text-align: left;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2rem;
 }

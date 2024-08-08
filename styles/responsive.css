@@ -1,14 +1,18 @@
 @media screen and (min-width:992px) and (max-width:30000px) {
-    .extra-text-container{
+    .extra-text-container {
         margin-left: 3.375rem;
     }
 
 }
+
 @media screen and (max-width:992px) {
     .small {
         padding: 0 10px;
     }
-    .extra-container, .calculator-parent {
+
+    .extra-container,
+    .calculator-parent,
+    .team-container {
         padding: 1.8rem;
         margin: 0 10px;
     }
@@ -22,6 +26,11 @@
 
     .habit-card-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    input,
+    .sex {
+        width: 47%;
     }
 
 
@@ -104,7 +113,8 @@
         width: 1.5rem;
         height: 1.5rem;
     }
-    .red-circle i{
+
+    .red-circle i {
         display: block;
     }
 
@@ -116,17 +126,21 @@
         flex-direction: column;
         gap: 2rem;
     }
-    .extra-text-container{
+
+    .extra-text-container {
         display: flex;
         flex-direction: column;
     }
+
     .extra-text-container,
     .extra-img-container {
         width: 100%;
     }
+
     .extra-img-container {
         min-height: 10px;
     }
+
     .extra-img-container img {
         object-fit: cover;
     }
@@ -146,5 +160,14 @@
 
     .bmi-calculator-text {
         margin-left: 0;
+    }
+
+    .team-imgs-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .team-item img {
+        max-height: 272px;
     }
 }
