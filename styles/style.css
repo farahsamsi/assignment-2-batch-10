@@ -20,7 +20,7 @@ body{
 }
 header{
     padding-top: 3.5rem;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.3), rgb(17, 17, 17) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.2), rgb(17, 17, 17) 100%);
 }
 
 .small{
@@ -31,6 +31,26 @@ header{
 
 img{
     width: 100%;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: .8rem;
+}
+
+.section-description,
+.team-item-text>p,
+td {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 560px;
+}
+
+.section-title-container, .card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .primary-btn, .secondary-btn{
@@ -105,6 +125,7 @@ nav, .nav-items{
 .hero-container h1 {
     font-size: 4.8rem;
     line-height: 100%;
+    font-weight: 900;
 }
 span {
     font-family: 'Miama', sans-serif;
@@ -171,4 +192,37 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* habits section related styles */
+.habits-container {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.habit-card-container {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.card-container>p {
+    padding: 2px 5px;
+    margin-top: 6px;
+}
+
+.card-container .img-container {
+    border-radius: 50%;
+    margin: 0 .9rem 1.8rem .9rem;
+    display: flex;
+    border: 5px solid rgba(255, 255, 255, 0.205);
+}
+
+.card-container .img-container img {
+    border-radius: 50%;
 }

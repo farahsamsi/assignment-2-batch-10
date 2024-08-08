@@ -1,5 +1,5 @@
 @media screen and (max-width:992px) {
-    body{
+    .small{
         padding: 0 10px;
     }
     .hero-container {
@@ -8,11 +8,21 @@
         gap: 3rem;
         width: 100%;
     }
+    .habit-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
     
 }
 
 @media screen and (max-width:576px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .section-description{
+        max-width: 320px;
+    }
     .nav-items{
         display: none;
     }
@@ -20,7 +30,7 @@
         display: block;
     }
     .hero-container h1 {
-        font-size: 2.5rem;
+        font-size: 3.2rem;
         line-height: 120%;
     }
     span {
@@ -67,5 +77,11 @@
     .red-circle {
         width: 1.5rem;
         height: 1.5rem;
+    }
+    /* .habits-container{
+        margin-top: 2px;
+    } */
+    .habit-card-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
