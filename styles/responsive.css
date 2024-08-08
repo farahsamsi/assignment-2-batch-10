@@ -58,6 +58,9 @@
 }
 
 @media screen and (max-width:576px) {
+    #header .small:nth-child(2){
+        margin-bottom: 0;
+    }
     .section-title {
         font-size: 2rem;
     }
@@ -99,7 +102,7 @@
 
     .lower-card,
     .upper-card {
-        padding: .4rem;
+        padding: 0.5rem .4rem 0.5rem 1rem;
     }
 
     .upper-card h2 {
