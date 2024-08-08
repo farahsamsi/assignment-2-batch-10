@@ -67,10 +67,6 @@
         font-size: 5rem;
     }
 
-    /* .primary-btn {
-        padding: 1rem;
-    } */
-
     .button-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -189,5 +185,8 @@
 
     .column-reverse{
         flex-direction: column-reverse;
+    }
+    .services-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
