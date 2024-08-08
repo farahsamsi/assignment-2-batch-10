@@ -8,7 +8,7 @@
     .small {
         padding: 0 10px;
     }
-    .extra-container {
+    .extra-container, .calculator-parent {
         padding: 1.8rem;
         margin: 0 10px;
     }
@@ -53,9 +53,9 @@
         font-size: 5rem;
     }
 
-    .primary-btn {
+    /* .primary-btn {
         padding: 1rem;
-    }
+    } */
 
     .button-container {
         display: grid;
@@ -129,5 +129,22 @@
     }
     .extra-img-container img {
         object-fit: cover;
+    }
+
+    .calculator-parent {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .calculator-table {
+        width: 85%;
+    }
+
+    .calculator-form {
+        width: 100%;
+    }
+
+    .bmi-calculator-text {
+        margin-left: 0;
     }
 }
