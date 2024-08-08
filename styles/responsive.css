@@ -210,7 +210,9 @@
         flex-direction: column-reverse;
     }
     .services-container{
-        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+        
     }
     .footer-parent-container {
         flex-direction: column;
