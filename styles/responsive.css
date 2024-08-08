@@ -11,8 +11,7 @@
     }
 
     .extra-container,
-    .calculator-parent,
-    .team-container {
+    .calculator-parent {
         padding: 1.8rem;
         margin: 0 10px;
     }
@@ -31,6 +30,12 @@
     input,
     .sex {
         width: 47%;
+    }
+    .team-item {
+        height: auto;
+    }
+    .services-content-container{
+        max-height: fit-content;
     }
 
 
@@ -151,7 +156,7 @@
     }
 
     .calculator-table {
-        width: 85%;
+        width: 95%;
     }
 
     .calculator-form {
@@ -169,5 +174,20 @@
 
     .team-item img {
         max-height: 272px;
+    }
+
+    .services-content-container, .service-cost-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .services-content-container{
+        gap: .8rem;
+    }
+    .service-text-container{
+        padding: 0;
+    }
+
+    .column-reverse{
+        flex-direction: column-reverse;
     }
 }
