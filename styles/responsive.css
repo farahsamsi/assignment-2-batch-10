@@ -38,6 +38,22 @@
         max-height: fit-content;
     }
 
+    .footer-parent-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 2rem;
+        padding: 3rem 1rem 0 1rem;
+    }
+
+    .footer-child-1 {
+        width: 60%;
+    }
+
+    .footer-child-2,
+    .footer-child-3 {
+        width: 40%;
+    }
+
 
 }
 
@@ -61,6 +77,10 @@
     .hero-container h1 {
         font-size: 3.2rem;
         line-height: 120%;
+    }
+
+    .button-container .primary-btn{
+        padding: 1rem;
     }
 
     span {
@@ -188,5 +208,20 @@
     }
     .services-container{
         grid-template-columns: repeat(1,1fr);
+    }
+    .footer-parent-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    
+    .footer-child-1,
+    .footer-child-2,
+    .footer-child-3 {
+        width: 100%;
+    }
+
+    .footer-child-1 .section-description{
+        width: 95%;
     }
 }

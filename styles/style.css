@@ -447,3 +447,44 @@ input,
     justify-content: center;
     gap: 1.5rem;
 }
+
+
+/* footer related styles */
+.footer-parent-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 0 0;
+
+    margin: 2.4rem 0 2.4rem 0;
+
+    /* border: 1px solid white; */
+}
+
+.footer-child-1 {
+    width: 40%;
+}
+
+.footer-container h2{
+    font-size: 4.375rem;
+}
+
+.footer-container h3 {
+    margin-bottom: 2rem;
+}
+
+.footer-container p, .rights {
+    margin-top: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.rights{
+    text-align: center;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 2.25rem 0 2.25rem 0;
+    font-size: 1.25rem;
+}
+
+#footer{
+    margin: 0 auto;
+}
